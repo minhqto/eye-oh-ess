@@ -15,6 +15,7 @@
 		EE5E50F3270BC35200003FA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE5E50F1270BC35200003FA1 /* LaunchScreen.storyboard */; };
 		EE5E50FE270BC35300003FA1 /* FirstUIProject1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5E50FD270BC35300003FA1 /* FirstUIProject1Tests.swift */; };
 		EE5E5109270BC35300003FA1 /* FirstUIProject1UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5E5108270BC35300003FA1 /* FirstUIProject1UITests.swift */; };
+		EE5E5117270D5C7A00003FA1 /* CounterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5E5116270D5C7A00003FA1 /* CounterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		EE5E5104270BC35300003FA1 /* FirstUIProject1UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstUIProject1UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE5E5108270BC35300003FA1 /* FirstUIProject1UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUIProject1UITests.swift; sourceTree = "<group>"; };
 		EE5E510A270BC35300003FA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE5E5116270D5C7A00003FA1 /* CounterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				EE5E50EF270BC35200003FA1 /* Assets.xcassets */,
 				EE5E50F1270BC35200003FA1 /* LaunchScreen.storyboard */,
 				EE5E50F4270BC35200003FA1 /* Info.plist */,
+				EE5E5116270D5C7A00003FA1 /* CounterViewController.swift */,
 			);
 			path = FirstUIProject1;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE5E50EB270BC35100003FA1 /* ViewController.swift in Sources */,
+				EE5E5117270D5C7A00003FA1 /* CounterViewController.swift in Sources */,
 				EE5E50E7270BC35100003FA1 /* AppDelegate.swift in Sources */,
 				EE5E50E9270BC35100003FA1 /* SceneDelegate.swift in Sources */,
 			);
