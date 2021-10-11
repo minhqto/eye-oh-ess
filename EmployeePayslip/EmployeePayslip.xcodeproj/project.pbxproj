@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE9F19112713E31D005A5BF3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F19102713E31D005A5BF3 /* AppDelegate.swift */; };
+		EE9F19132713E31D005A5BF3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F19122713E31D005A5BF3 /* SceneDelegate.swift */; };
+		EE9F19152713E31D005A5BF3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F19142713E31D005A5BF3 /* ViewController.swift */; };
+		EE9F19182713E31D005A5BF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9F19162713E31D005A5BF3 /* Main.storyboard */; };
+		EE9F191A2713E320005A5BF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9F19192713E320005A5BF3 /* Assets.xcassets */; };
+		EE9F191D2713E320005A5BF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9F191B2713E320005A5BF3 /* LaunchScreen.storyboard */; };
+		EE9F19282713E320005A5BF3 /* EmployeePayslipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F19272713E320005A5BF3 /* EmployeePayslipTests.swift */; };
+		EE9F19332713E320005A5BF3 /* EmployeePayslipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9F19322713E320005A5BF3 /* EmployeePayslipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE9F19242713E320005A5BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE9F19052713E31D005A5BF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE9F190C2713E31D005A5BF3;
+			remoteInfo = EmployeePayslip;
+		};
+		EE9F192F2713E320005A5BF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE9F19052713E31D005A5BF3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE9F190C2713E31D005A5BF3;
+			remoteInfo = EmployeePayslip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE9F190D2713E31D005A5BF3 /* EmployeePayslip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmployeePayslip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9F19102713E31D005A5BF3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE9F19122713E31D005A5BF3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE9F19142713E31D005A5BF3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE9F19172713E31D005A5BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE9F19192713E320005A5BF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE9F191C2713E320005A5BF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE9F191E2713E320005A5BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE9F19232713E320005A5BF3 /* EmployeePayslipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmployeePayslipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9F19272713E320005A5BF3 /* EmployeePayslipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeePayslipTests.swift; sourceTree = "<group>"; };
+		EE9F19292713E320005A5BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE9F192E2713E320005A5BF3 /* EmployeePayslipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmployeePayslipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9F19322713E320005A5BF3 /* EmployeePayslipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeePayslipUITests.swift; sourceTree = "<group>"; };
+		EE9F19342713E320005A5BF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE9F190A2713E31D005A5BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9F19202713E320005A5BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9F192B2713E320005A5BF3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE9F19042713E31D005A5BF3 = {
+			isa = PBXGroup;
+			children = (
+				EE9F190F2713E31D005A5BF3 /* EmployeePayslip */,
+				EE9F19262713E320005A5BF3 /* EmployeePayslipTests */,
+				EE9F19312713E320005A5BF3 /* EmployeePayslipUITests */,
+				EE9F190E2713E31D005A5BF3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE9F190E2713E31D005A5BF3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE9F190D2713E31D005A5BF3 /* EmployeePayslip.app */,
+				EE9F19232713E320005A5BF3 /* EmployeePayslipTests.xctest */,
+				EE9F192E2713E320005A5BF3 /* EmployeePayslipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE9F190F2713E31D005A5BF3 /* EmployeePayslip */ = {
+			isa = PBXGroup;
+			children = (
+				EE9F19102713E31D005A5BF3 /* AppDelegate.swift */,
+				EE9F19122713E31D005A5BF3 /* SceneDelegate.swift */,
+				EE9F19142713E31D005A5BF3 /* ViewController.swift */,
+				EE9F19162713E31D005A5BF3 /* Main.storyboard */,
+				EE9F19192713E320005A5BF3 /* Assets.xcassets */,
+				EE9F191B2713E320005A5BF3 /* LaunchScreen.storyboard */,
+				EE9F191E2713E320005A5BF3 /* Info.plist */,
+			);
+			path = EmployeePayslip;
+			sourceTree = "<group>";
+		};
+		EE9F19262713E320005A5BF3 /* EmployeePayslipTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE9F19272713E320005A5BF3 /* EmployeePayslipTests.swift */,
+				EE9F19292713E320005A5BF3 /* Info.plist */,
+			);
+			path = EmployeePayslipTests;
+			sourceTree = "<group>";
+		};
+		EE9F19312713E320005A5BF3 /* EmployeePayslipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE9F19322713E320005A5BF3 /* EmployeePayslipUITests.swift */,
+				EE9F19342713E320005A5BF3 /* Info.plist */,
+			);
+			path = EmployeePayslipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE9F190C2713E31D005A5BF3 /* EmployeePayslip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE9F19372713E320005A5BF3 /* Build configuration list for PBXNativeTarget "EmployeePayslip" */;
+			buildPhases = (
+				EE9F19092713E31D005A5BF3 /* Sources */,
+				EE9F190A2713E31D005A5BF3 /* Frameworks */,
+				EE9F190B2713E31D005A5BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmployeePayslip;
+			productName = EmployeePayslip;
+			productReference = EE9F190D2713E31D005A5BF3 /* EmployeePayslip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE9F19222713E320005A5BF3 /* EmployeePayslipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE9F193A2713E320005A5BF3 /* Build configuration list for PBXNativeTarget "EmployeePayslipTests" */;
+			buildPhases = (
+				EE9F191F2713E320005A5BF3 /* Sources */,
+				EE9F19202713E320005A5BF3 /* Frameworks */,
+				EE9F19212713E320005A5BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE9F19252713E320005A5BF3 /* PBXTargetDependency */,
+			);
+			name = EmployeePayslipTests;
+			productName = EmployeePayslipTests;
+			productReference = EE9F19232713E320005A5BF3 /* EmployeePayslipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE9F192D2713E320005A5BF3 /* EmployeePayslipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE9F193D2713E320005A5BF3 /* Build configuration list for PBXNativeTarget "EmployeePayslipUITests" */;
+			buildPhases = (
+				EE9F192A2713E320005A5BF3 /* Sources */,
+				EE9F192B2713E320005A5BF3 /* Frameworks */,
+				EE9F192C2713E320005A5BF3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE9F19302713E320005A5BF3 /* PBXTargetDependency */,
+			);
+			name = EmployeePayslipUITests;
+			productName = EmployeePayslipUITests;
+			productReference = EE9F192E2713E320005A5BF3 /* EmployeePayslipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE9F19052713E31D005A5BF3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EE9F190C2713E31D005A5BF3 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EE9F19222713E320005A5BF3 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EE9F190C2713E31D005A5BF3;
+					};
+					EE9F192D2713E320005A5BF3 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EE9F190C2713E31D005A5BF3;
+					};
+				};
+			};
+			buildConfigurationList = EE9F19082713E31D005A5BF3 /* Build configuration list for PBXProject "EmployeePayslip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE9F19042713E31D005A5BF3;
+			productRefGroup = EE9F190E2713E31D005A5BF3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE9F190C2713E31D005A5BF3 /* EmployeePayslip */,
+				EE9F19222713E320005A5BF3 /* EmployeePayslipTests */,
+				EE9F192D2713E320005A5BF3 /* EmployeePayslipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE9F190B2713E31D005A5BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9F191D2713E320005A5BF3 /* LaunchScreen.storyboard in Resources */,
+				EE9F191A2713E320005A5BF3 /* Assets.xcassets in Resources */,
+				EE9F19182713E31D005A5BF3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9F19212713E320005A5BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9F192C2713E320005A5BF3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE9F19092713E31D005A5BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9F19152713E31D005A5BF3 /* ViewController.swift in Sources */,
+				EE9F19112713E31D005A5BF3 /* AppDelegate.swift in Sources */,
+				EE9F19132713E31D005A5BF3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9F191F2713E320005A5BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9F19282713E320005A5BF3 /* EmployeePayslipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9F192A2713E320005A5BF3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9F19332713E320005A5BF3 /* EmployeePayslipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE9F19252713E320005A5BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE9F190C2713E31D005A5BF3 /* EmployeePayslip */;
+			targetProxy = EE9F19242713E320005A5BF3 /* PBXContainerItemProxy */;
+		};
+		EE9F19302713E320005A5BF3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE9F190C2713E31D005A5BF3 /* EmployeePayslip */;
+			targetProxy = EE9F192F2713E320005A5BF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE9F19162713E31D005A5BF3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE9F19172713E31D005A5BF3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE9F191B2713E320005A5BF3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE9F191C2713E320005A5BF3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE9F19352713E320005A5BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE9F19362713E320005A5BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE9F19382713E320005A5BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmployeePayslip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = minh.EmployeePayslip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE9F19392713E320005A5BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmployeePayslip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = minh.EmployeePayslip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE9F193B2713E320005A5BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmployeePayslipTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = minh.EmployeePayslipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmployeePayslip.app/EmployeePayslip";
+			};
+			name = Debug;
+		};
+		EE9F193C2713E320005A5BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmployeePayslipTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = minh.EmployeePayslipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmployeePayslip.app/EmployeePayslip";
+			};
+			name = Release;
+		};
+		EE9F193E2713E320005A5BF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmployeePayslipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = minh.EmployeePayslipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmployeePayslip;
+			};
+			name = Debug;
+		};
+		EE9F193F2713E320005A5BF3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EmployeePayslipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = minh.EmployeePayslipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EmployeePayslip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE9F19082713E31D005A5BF3 /* Build configuration list for PBXProject "EmployeePayslip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9F19352713E320005A5BF3 /* Debug */,
+				EE9F19362713E320005A5BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE9F19372713E320005A5BF3 /* Build configuration list for PBXNativeTarget "EmployeePayslip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9F19382713E320005A5BF3 /* Debug */,
+				EE9F19392713E320005A5BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE9F193A2713E320005A5BF3 /* Build configuration list for PBXNativeTarget "EmployeePayslipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9F193B2713E320005A5BF3 /* Debug */,
+				EE9F193C2713E320005A5BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE9F193D2713E320005A5BF3 /* Build configuration list for PBXNativeTarget "EmployeePayslipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9F193E2713E320005A5BF3 /* Debug */,
+				EE9F193F2713E320005A5BF3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE9F19052713E31D005A5BF3 /* Project object */;
+}
