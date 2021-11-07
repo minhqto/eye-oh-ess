@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE9216CE271E7E3D000BF0A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9216CD271E7E3D000BF0A0 /* AppDelegate.swift */; };
+		EE9216D0271E7E3D000BF0A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9216CF271E7E3D000BF0A0 /* SceneDelegate.swift */; };
+		EE9216D2271E7E3D000BF0A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9216D1271E7E3D000BF0A0 /* ViewController.swift */; };
+		EE9216D5271E7E3D000BF0A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9216D3271E7E3D000BF0A0 /* Main.storyboard */; };
+		EE9216D7271E7E40000BF0A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE9216D6271E7E40000BF0A0 /* Assets.xcassets */; };
+		EE9216DA271E7E40000BF0A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE9216D8271E7E40000BF0A0 /* LaunchScreen.storyboard */; };
+		EE9216E5271E7E41000BF0A0 /* PizzaTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9216E4271E7E41000BF0A0 /* PizzaTimeTests.swift */; };
+		EE9216F0271E7E41000BF0A0 /* PizzaTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE9216EF271E7E41000BF0A0 /* PizzaTimeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE9216E1271E7E41000BF0A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE9216C2271E7E3D000BF0A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE9216C9271E7E3D000BF0A0;
+			remoteInfo = PizzaTime;
+		};
+		EE9216EC271E7E41000BF0A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE9216C2271E7E3D000BF0A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE9216C9271E7E3D000BF0A0;
+			remoteInfo = PizzaTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE9216CA271E7E3D000BF0A0 /* PizzaTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9216CD271E7E3D000BF0A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE9216CF271E7E3D000BF0A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE9216D1271E7E3D000BF0A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE9216D4271E7E3D000BF0A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE9216D6271E7E40000BF0A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE9216D9271E7E40000BF0A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE9216DB271E7E40000BF0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE9216E0271E7E41000BF0A0 /* PizzaTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9216E4271E7E41000BF0A0 /* PizzaTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaTimeTests.swift; sourceTree = "<group>"; };
+		EE9216E6271E7E41000BF0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE9216EB271E7E41000BF0A0 /* PizzaTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PizzaTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE9216EF271E7E41000BF0A0 /* PizzaTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PizzaTimeUITests.swift; sourceTree = "<group>"; };
+		EE9216F1271E7E41000BF0A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE9216C7271E7E3D000BF0A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9216DD271E7E41000BF0A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9216E8271E7E41000BF0A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE9216C1271E7E3D000BF0A0 = {
+			isa = PBXGroup;
+			children = (
+				EE9216CC271E7E3D000BF0A0 /* PizzaTime */,
+				EE9216E3271E7E41000BF0A0 /* PizzaTimeTests */,
+				EE9216EE271E7E41000BF0A0 /* PizzaTimeUITests */,
+				EE9216CB271E7E3D000BF0A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE9216CB271E7E3D000BF0A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE9216CA271E7E3D000BF0A0 /* PizzaTime.app */,
+				EE9216E0271E7E41000BF0A0 /* PizzaTimeTests.xctest */,
+				EE9216EB271E7E41000BF0A0 /* PizzaTimeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE9216CC271E7E3D000BF0A0 /* PizzaTime */ = {
+			isa = PBXGroup;
+			children = (
+				EE9216CD271E7E3D000BF0A0 /* AppDelegate.swift */,
+				EE9216CF271E7E3D000BF0A0 /* SceneDelegate.swift */,
+				EE9216D1271E7E3D000BF0A0 /* ViewController.swift */,
+				EE9216D3271E7E3D000BF0A0 /* Main.storyboard */,
+				EE9216D6271E7E40000BF0A0 /* Assets.xcassets */,
+				EE9216D8271E7E40000BF0A0 /* LaunchScreen.storyboard */,
+				EE9216DB271E7E40000BF0A0 /* Info.plist */,
+			);
+			path = PizzaTime;
+			sourceTree = "<group>";
+		};
+		EE9216E3271E7E41000BF0A0 /* PizzaTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE9216E4271E7E41000BF0A0 /* PizzaTimeTests.swift */,
+				EE9216E6271E7E41000BF0A0 /* Info.plist */,
+			);
+			path = PizzaTimeTests;
+			sourceTree = "<group>";
+		};
+		EE9216EE271E7E41000BF0A0 /* PizzaTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE9216EF271E7E41000BF0A0 /* PizzaTimeUITests.swift */,
+				EE9216F1271E7E41000BF0A0 /* Info.plist */,
+			);
+			path = PizzaTimeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE9216C9271E7E3D000BF0A0 /* PizzaTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE9216F4271E7E41000BF0A0 /* Build configuration list for PBXNativeTarget "PizzaTime" */;
+			buildPhases = (
+				EE9216C6271E7E3D000BF0A0 /* Sources */,
+				EE9216C7271E7E3D000BF0A0 /* Frameworks */,
+				EE9216C8271E7E3D000BF0A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PizzaTime;
+			productName = PizzaTime;
+			productReference = EE9216CA271E7E3D000BF0A0 /* PizzaTime.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE9216DF271E7E41000BF0A0 /* PizzaTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE9216F7271E7E41000BF0A0 /* Build configuration list for PBXNativeTarget "PizzaTimeTests" */;
+			buildPhases = (
+				EE9216DC271E7E41000BF0A0 /* Sources */,
+				EE9216DD271E7E41000BF0A0 /* Frameworks */,
+				EE9216DE271E7E41000BF0A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE9216E2271E7E41000BF0A0 /* PBXTargetDependency */,
+			);
+			name = PizzaTimeTests;
+			productName = PizzaTimeTests;
+			productReference = EE9216E0271E7E41000BF0A0 /* PizzaTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE9216EA271E7E41000BF0A0 /* PizzaTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE9216FA271E7E41000BF0A0 /* Build configuration list for PBXNativeTarget "PizzaTimeUITests" */;
+			buildPhases = (
+				EE9216E7271E7E41000BF0A0 /* Sources */,
+				EE9216E8271E7E41000BF0A0 /* Frameworks */,
+				EE9216E9271E7E41000BF0A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE9216ED271E7E41000BF0A0 /* PBXTargetDependency */,
+			);
+			name = PizzaTimeUITests;
+			productName = PizzaTimeUITests;
+			productReference = EE9216EB271E7E41000BF0A0 /* PizzaTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE9216C2271E7E3D000BF0A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EE9216C9271E7E3D000BF0A0 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EE9216DF271E7E41000BF0A0 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EE9216C9271E7E3D000BF0A0;
+					};
+					EE9216EA271E7E41000BF0A0 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EE9216C9271E7E3D000BF0A0;
+					};
+				};
+			};
+			buildConfigurationList = EE9216C5271E7E3D000BF0A0 /* Build configuration list for PBXProject "PizzaTime" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE9216C1271E7E3D000BF0A0;
+			productRefGroup = EE9216CB271E7E3D000BF0A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE9216C9271E7E3D000BF0A0 /* PizzaTime */,
+				EE9216DF271E7E41000BF0A0 /* PizzaTimeTests */,
+				EE9216EA271E7E41000BF0A0 /* PizzaTimeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE9216C8271E7E3D000BF0A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9216DA271E7E40000BF0A0 /* LaunchScreen.storyboard in Resources */,
+				EE9216D7271E7E40000BF0A0 /* Assets.xcassets in Resources */,
+				EE9216D5271E7E3D000BF0A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9216DE271E7E41000BF0A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9216E9271E7E41000BF0A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE9216C6271E7E3D000BF0A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9216D2271E7E3D000BF0A0 /* ViewController.swift in Sources */,
+				EE9216CE271E7E3D000BF0A0 /* AppDelegate.swift in Sources */,
+				EE9216D0271E7E3D000BF0A0 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9216DC271E7E41000BF0A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9216E5271E7E41000BF0A0 /* PizzaTimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE9216E7271E7E41000BF0A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE9216F0271E7E41000BF0A0 /* PizzaTimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE9216E2271E7E41000BF0A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE9216C9271E7E3D000BF0A0 /* PizzaTime */;
+			targetProxy = EE9216E1271E7E41000BF0A0 /* PBXContainerItemProxy */;
+		};
+		EE9216ED271E7E41000BF0A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE9216C9271E7E3D000BF0A0 /* PizzaTime */;
+			targetProxy = EE9216EC271E7E41000BF0A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE9216D3271E7E3D000BF0A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE9216D4271E7E3D000BF0A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE9216D8271E7E40000BF0A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE9216D9271E7E40000BF0A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE9216F2271E7E41000BF0A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE9216F3271E7E41000BF0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE9216F5271E7E41000BF0A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PizzaTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = minh.PizzaTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE9216F6271E7E41000BF0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PizzaTime/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = minh.PizzaTime;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE9216F8271E7E41000BF0A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PizzaTimeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = minh.PizzaTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PizzaTime.app/PizzaTime";
+			};
+			name = Debug;
+		};
+		EE9216F9271E7E41000BF0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PizzaTimeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = minh.PizzaTimeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PizzaTime.app/PizzaTime";
+			};
+			name = Release;
+		};
+		EE9216FB271E7E41000BF0A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PizzaTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = minh.PizzaTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PizzaTime;
+			};
+			name = Debug;
+		};
+		EE9216FC271E7E41000BF0A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PizzaTimeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = minh.PizzaTimeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PizzaTime;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE9216C5271E7E3D000BF0A0 /* Build configuration list for PBXProject "PizzaTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9216F2271E7E41000BF0A0 /* Debug */,
+				EE9216F3271E7E41000BF0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE9216F4271E7E41000BF0A0 /* Build configuration list for PBXNativeTarget "PizzaTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9216F5271E7E41000BF0A0 /* Debug */,
+				EE9216F6271E7E41000BF0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE9216F7271E7E41000BF0A0 /* Build configuration list for PBXNativeTarget "PizzaTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9216F8271E7E41000BF0A0 /* Debug */,
+				EE9216F9271E7E41000BF0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE9216FA271E7E41000BF0A0 /* Build configuration list for PBXNativeTarget "PizzaTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE9216FB271E7E41000BF0A0 /* Debug */,
+				EE9216FC271E7E41000BF0A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE9216C2271E7E3D000BF0A0 /* Project object */;
+}
