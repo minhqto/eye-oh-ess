@@ -8,7 +8,7 @@
 import Foundation
 
 class APIService {
-    let apiEndpoint = "https://api.polygon.io/v3/reference/tickers?apiKey=YKMERnT0YR01MUU1pPW2oeiJNVqdwan3&ticker=AAPL"
+    let apiEndpoint = "https://api.polygon.io/v3/reference/tickers
     private static var shared: APIService?
     
     static func getInstance() -> APIService {
